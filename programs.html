@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activate Tech Institute</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Programs</h1>
+        </section>
+
+
+        <!---- Prgrams/Courses ---->
+
+        <section class="course">
+            <h1>Explore Our Programs</h1>
+            <p>Activate Tech Institute offers a range of programs designed to propel you into the heart of the tech revolution.
+                Dive into cutting-edge courses crafted to meet industry demands, guided by experienced mentors committed to your success.
+            </p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Cybersecurity</h3>
+                    <p>Our comprehensive curriculum is meticulously crafted to immerse you in the intricate world of cybersecurity, equipping you with the skills needed to safeguard organizations from evolving cyber threats. Led by seasoned experts, our hands-on training spans 
+                        ethical hacking, risk management, and security analysis, ensuring you graduate not only with theoretical knowledge but also with practical, real-world experience. Join us in fortifying the digital landscape and become a sought-after cybersecurity professional with Activate Tech Institute's cutting-edge program. </p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Software Engineering</h3>
+                    <p>Dive into the realm of innovation and coding excellence with Activate Tech Institute's Software Engineering Program. Designed for aspiring developers, our program offers a holistic and hands-on approach to mastering the art of software creation. Immerse yourself in a dynamic curriculum covering programming languages, 
+                        software architecture, and collaborative development practices. Whether you're a novice or looking to enhance your skills, our program empowers you to build robust, scalable solutions and prepares you to thrive in the ever-evolving landscape of software engineering. </p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Cloud Computing</h3>
+                    <p>Elevate your expertise to the cloud with Activate Tech Institute's Cloud Computing Program. Designed for forward-thinking individuals seeking to master the latest in cloud technology, our program offers a comprehensive journey into the realms of cloud architecture, deployment, and management. Led by industry experts, 
+                        you'll gain hands-on experience with leading cloud platforms, learning to optimize resources, enhance scalability, and ensure the security of cloud-based solutions. Whether you're aspiring to become a cloud architect, engineer, or administrator, our program equips you with the skills needed to navigate the forefront of technology.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!---- Campus/Online ---->
+
+        <section class="campus">
+            <h1>Delivery Options</h1>
+            <p>At Activate Tech Institute, choose your learning path with flexibility. Join us in person at our vibrant Austin, TX location for immersive experiences, or opt for the convenience of online learning, tailoring your education to your lifestyle and aspirations.</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/in-person.png">
+                    <div class="layer">
+                        <h3>In-Person at Austin, TX </h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="images/online learning.jpg">
+                    <div class="layer">
+                        <h3>Online</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+         <!---- Footer ---->
+
+         <section class="footer">
+            <h4>Connect with us:</h4>
+            
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <i class="fa fa-heart-o"></i> Khadisha Dildy</p>
+         </section>
+
+
+
+
+         <!---- JavaScript Code ---->
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>  
+    </body>
+</html>

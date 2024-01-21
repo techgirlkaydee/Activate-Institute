@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activate Tech Institute</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>News</h1>
+        </section>
+
+
+         <!---- News Page ---->
+
+         <section class="news-page">
+            <div class="row">
+                <div class="news-left">
+                    <img src="images/women in tech.jpg">
+                    <h2>Women in Tech: Breaking Barriers<br>
+                        and Transforming the Industry</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quae earum voluptatem temporibus, deleniti architecto quasi exercitationem dolores quia nemo adipisci, ab laboriosam voluptate odit, aliquid aperiam doloribus commodi saepe.</p>
+                    <br>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam cum in, nostrum optio inventore placeat reiciendis obcaecati aliquam ex quisquam tenetur ullam odio ea ipsa ratione veniam eos quo soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat praesentium enim quae nulla consectetur nesciunt quis non necessitatibus sequi tenetur maiores iusto iste accusantium, et optio vel! Eligendi, eius eos.</P>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quae earum voluptatem temporibus, deleniti architecto quasi exercitationem dolores quia nemo adipisci, ab laboriosam voluptate odit, aliquid aperiam doloribus commodi saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut similique, porro, minima magni tempore totam aspernatur illum error beatae sapiente soluta magnam delectus. Adipisci voluptas accusamus sint. Harum, aspernatur ab.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni earum nam eveniet inventore iusto quos nihil dolores quia adipisci odit repudiandae officiis laudantium maxime, iure dolore ad officia vel perferendis!</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam saepe impedit tempore beatae dicta minus maiores sapiente at eum id numquam blanditiis perspiciatis doloribus, magnam laboriosam ea dolores, ab reprehenderit.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Your Name">
+                            <input type="email" placeholder="Enter Your Email">
+                            <textarea rows="5" placeholder="Type Your Comment"></textarea>
+                            <button type="submit" class="hero-btn purple-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                
+                </div>
+                <div class="news-right">
+                    <h3>Other News Stories</h3>
+                    <div>
+                        <span><a href="">New Scholarship for Vets</span></a>
+                        <span>3 January 2024</span>
+                    </div>
+
+                    <div>
+                        <span><a href="">Thank You to Our Donors</span></a>
+                        <span>11 December 2023</span>
+                    </div>
+
+                    <div>
+                        <span><a href="">A.I. and the Future of IT</span></a>
+                        <span>2 November 2023</span>
+                    </div>
+
+                    <div>
+                        <span><a href="">Become a Cloud Guru</span></a>
+                        <span>23 October 2023</span>
+                    </div>
+
+                    <div>
+                        <span><a href="">Welcome Our New Cohort!</span></a>
+                        <span>9 September 2023</span>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+         <!---- Footer ---->
+
+         <section class="footer">
+            <h4>Connect with us:</h4>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <i class="fa fa-heart-o"></i> Khadisha Dildy</p>
+         </section>
+
+
+         <!---- JavaScript Code ---->
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
