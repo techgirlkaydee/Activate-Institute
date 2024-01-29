@@ -3,6 +3,8 @@ Building My First Website!
 
 Welcome to the Activate Tech Institute website repository! This website was created as the HTML and CSS capstone project for the App Academy Software Engineering program.
 
+Hosted on Netlify: https://activatetechinstitute.netlify.app/
+
 ## Project Overview
 
 This project focuses on building a simple yet functional website for Activate Tech Institute, incorporating key features and elements as specified in the project requirements.
